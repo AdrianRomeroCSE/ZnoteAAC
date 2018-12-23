@@ -1,6 +1,4 @@
 <?php
-	//Testing git
-	//Testing branching
 	if (!defined('ZNOTE_OS')) {
 		$isWindows = (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN');
 		define('ZNOTE_OS', ($isWindows) ? 'WINDOWS' : 'LINUX');
